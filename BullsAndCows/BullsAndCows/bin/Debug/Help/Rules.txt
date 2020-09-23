@@ -1,0 +1,17 @@
+﻿To start game player must input count of digits in sequence.
+The player make up a secret number (in which the number of 
+digits must match the previously selected). 
+Then the program try to guess player's number, who gives the number of matches. 
+If the matching digits are in their right positions, they are "bulls",
+if in different positions, they are "cows". Example: 
+Secret number: 4271
+Program's try: 1234
+Answer: 1 bull and 2 cows. (The bull is "2", the cows are "4" and "1".)
+If the digit in the proposed sequence occurs more than in yours, then the number of "bulls"" 
+and "cows" should correspond to the number of repeating digits in your sequence. Example :
+Secret number: 1321
+Program's try: 1113
+Answer: 1 bull and 2 cows. (The bull is "1" in first position, the cows is "1" and "3".
+Other matches you must ignore)
+When the sequence is guessed, you must enter a count of bulls that equal to sequence
+size which you chose at the beginning.

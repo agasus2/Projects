@@ -1,0 +1,14 @@
+C:\Users\aharkov.m\source\repos\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.exe.config
+C:\Users\aharkov.m\source\repos\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.exe
+C:\Users\aharkov.m\source\repos\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.pdb
+C:\Users\aharkov.m\source\repos\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.csprojAssemblyReference.cache
+C:\Users\aharkov.m\source\repos\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.exe
+C:\Users\aharkov.m\source\repos\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.pdb
+C:\Users\aharkov.m\source\repos\BullsAndCows\BullsAndCows\bin\Debug\Help\Rules.txt
+C:\Users\Максим\Desktop\projects\BullsAndCows\BullsAndCows\bin\Debug\Help\Rules.txt
+C:\Users\Максим\Desktop\projects\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.exe.config
+C:\Users\Максим\Desktop\projects\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.exe
+C:\Users\Максим\Desktop\projects\BullsAndCows\BullsAndCows\bin\Debug\BullsAndCows.pdb
+C:\Users\Максим\Desktop\projects\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.csprojAssemblyReference.cache
+C:\Users\Максим\Desktop\projects\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.exe
+C:\Users\Максим\Desktop\projects\BullsAndCows\BullsAndCows\obj\Debug\BullsAndCows.pdb
