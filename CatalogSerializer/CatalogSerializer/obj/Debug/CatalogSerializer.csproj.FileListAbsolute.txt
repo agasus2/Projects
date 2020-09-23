@@ -1,0 +1,14 @@
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializer\bin\Debug\CatalogSerializer.exe.config
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializer\bin\Debug\CatalogSerializer.exe
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializer\bin\Debug\CatalogSerializer.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializer\obj\Debug\CatalogSerializer.csprojAssemblyReference.cache
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializer\obj\Debug\CatalogSerializer.exe
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializer\obj\Debug\CatalogSerializer.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializer\bin\Debug\Help\Help.txt
+C:\Users\Максим\Desktop\projects\CatalogSerializer\CatalogSerializer\bin\Debug\Help\Help.txt
+C:\Users\Максим\Desktop\projects\CatalogSerializer\CatalogSerializer\bin\Debug\CatalogSerializer.exe.config
+C:\Users\Максим\Desktop\projects\CatalogSerializer\CatalogSerializer\bin\Debug\CatalogSerializer.exe
+C:\Users\Максим\Desktop\projects\CatalogSerializer\CatalogSerializer\bin\Debug\CatalogSerializer.pdb
+C:\Users\Максим\Desktop\projects\CatalogSerializer\CatalogSerializer\obj\Debug\CatalogSerializer.csprojAssemblyReference.cache
+C:\Users\Максим\Desktop\projects\CatalogSerializer\CatalogSerializer\obj\Debug\CatalogSerializer.exe
+C:\Users\Максим\Desktop\projects\CatalogSerializer\CatalogSerializer\obj\Debug\CatalogSerializer.pdb

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogSerializer", "CatalogSerializer\CatalogSerializer.csproj", "{9323E6C5-2613-49E1-9BAC-CD77759157B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogSerializerTests", "CatalogSerializerTests\CatalogSerializerTests.csproj", "{6588E7F2-8231-40B2-92E7-283900278184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9323E6C5-2613-49E1-9BAC-CD77759157B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9323E6C5-2613-49E1-9BAC-CD77759157B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9323E6C5-2613-49E1-9BAC-CD77759157B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9323E6C5-2613-49E1-9BAC-CD77759157B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6588E7F2-8231-40B2-92E7-283900278184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6588E7F2-8231-40B2-92E7-283900278184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6588E7F2-8231-40B2-92E7-283900278184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6588E7F2-8231-40B2-92E7-283900278184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD3D857A-BF89-47E1-BC38-77F089AA4ED1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dev-tfs:8080/tfs/studentprojects
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CatalogSerializer\\CatalogSerializer.csproj
+		SccProjectName1 = CatalogSerializer
+		SccLocalPath1 = CatalogSerializer
+		SccProjectUniqueName2 = CatalogSerializerTests\\CatalogSerializerTests.csproj
+		SccProjectName2 = CatalogSerializerTests
+		SccLocalPath2 = CatalogSerializerTests
+	EndGlobalSection
+EndGlobal

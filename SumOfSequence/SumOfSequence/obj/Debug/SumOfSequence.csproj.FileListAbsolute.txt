@@ -1,0 +1,12 @@
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\SumOfSequence\SumOfSequence\bin\Debug\SumOfSequence.exe.config
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\SumOfSequence\SumOfSequence\bin\Debug\SumOfSequence.exe
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\SumOfSequence\SumOfSequence\bin\Debug\SumOfSequence.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\SumOfSequence\SumOfSequence\obj\Debug\SumOfSequence.exe
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\SumOfSequence\SumOfSequence\obj\Debug\SumOfSequence.pdb
+C:\Users\aharkov.m\Source\Workspaces\Aharkov_Desktop\Sources\SumOfSequence\SumOfSequence\obj\Debug\SumOfSequence.csprojAssemblyReference.cache
+C:\Users\Максим\Desktop\projects\SumOfSequence\SumOfSequence\bin\Debug\SumOfSequence.exe.config
+C:\Users\Максим\Desktop\projects\SumOfSequence\SumOfSequence\bin\Debug\SumOfSequence.exe
+C:\Users\Максим\Desktop\projects\SumOfSequence\SumOfSequence\bin\Debug\SumOfSequence.pdb
+C:\Users\Максим\Desktop\projects\SumOfSequence\SumOfSequence\obj\Debug\SumOfSequence.csprojAssemblyReference.cache
+C:\Users\Максим\Desktop\projects\SumOfSequence\SumOfSequence\obj\Debug\SumOfSequence.exe
+C:\Users\Максим\Desktop\projects\SumOfSequence\SumOfSequence\obj\Debug\SumOfSequence.pdb

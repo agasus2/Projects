@@ -1,0 +1,17 @@
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\nunit.engine.dll
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\nunit.engine.api.dll
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\CatalogSerializerTests.dll
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\CatalogSerializerTests.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\CatalogSerializer.exe
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\nunit.framework.dll
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\CatalogSerializer.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\CatalogSerializer.exe.config
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\nunit.framework.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\nunit.framework.xml
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\obj\Debug\CatalogSerializerTests.csprojAssemblyReference.cache
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\obj\Debug\CatalogSerializerTests.csproj.CopyComplete
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\obj\Debug\CatalogSerializerTests.dll
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\obj\Debug\CatalogSerializerTests.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\CatalogSerializer\CatalogSerializerTests\bin\Debug\Help\Help.txt

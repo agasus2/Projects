@@ -1,0 +1,12 @@
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\bin\Debug\EmailAndHyperlinkSearch.exe.config
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\bin\Debug\EmailAndHyperlinkSearch.exe
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\bin\Debug\EmailAndHyperlinkSearch.pdb
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\obj\Debug\EmailAndHyperlinkSearch.csprojAssemblyReference.cache
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\obj\Debug\EmailAndHyperlinkSearch.exe
+C:\Users\aharkov.m\source\Workspaces\Aharkov_Desktop\Sources\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\obj\Debug\EmailAndHyperlinkSearch.pdb
+C:\Users\Максим\Desktop\projects\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\bin\Debug\EmailAndHyperlinkSearch.exe.config
+C:\Users\Максим\Desktop\projects\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\bin\Debug\EmailAndHyperlinkSearch.exe
+C:\Users\Максим\Desktop\projects\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\bin\Debug\EmailAndHyperlinkSearch.pdb
+C:\Users\Максим\Desktop\projects\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\obj\Debug\EmailAndHyperlinkSearch.csprojAssemblyReference.cache
+C:\Users\Максим\Desktop\projects\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\obj\Debug\EmailAndHyperlinkSearch.exe
+C:\Users\Максим\Desktop\projects\EmailAndHyperlinkSearch\EmailAndHyperlinkSearch\obj\Debug\EmailAndHyperlinkSearch.pdb

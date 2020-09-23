@@ -1,0 +1,91 @@
+﻿<Window x:Class="Electronika.Views.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Electronika.Views"
+        xmlns:vm="clr-namespace:Electronika.ViewModels"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:cmd="http://www.galasoft.ch/mvvmlight"
+        mc:Ignorable="d"
+        Title="Settings" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}"  />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Viewbox Grid.Column="0" VerticalAlignment="Top">
+            <StackPanel >
+                <TextBlock Text="GameSpeed" Margin="5,8,0,10" />
+                <TextBlock Text="Full Screen" Margin="5,10,0,10"/>
+                <TextBlock Text="Wolf Left Top Position" Margin="5,6,0,10"/>
+                <TextBlock Text="Wolf Left Bottom Position" Margin="5,5,0,10"/>
+                <TextBlock Text="Wolf Right Top Position" Margin="5,10,0,10"/>
+                <TextBlock Text="Wolf Right Bottom Position" Margin="5,4,0,10"/>
+            </StackPanel>
+        </Viewbox>
+
+        <Viewbox VerticalAlignment="Top"  Grid.Column="1">
+            <StackPanel Height="280" Width="168" >
+
+                <Slider  x:Name="slider" Maximum="2" Minimum="1" TickFrequency="0.1"
+                    TickPlacement="BottomRight" IsSnapToTickEnabled="True" Margin="10,10,0,0" MinWidth="100" Value="{Binding config.GameSpeed,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsMoveToPointEnabled="True"/>
+                <CheckBox  IsChecked="{Binding config.FullScreen, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"  Margin="10,16,143,0"/>
+                <TextBox  x:Name="LeftTopPosTb" HorizontalAlignment="Left" MinWidth="50" Margin="10,20,0,0" IsReadOnly="True" Text="{Binding config.WolfLTKey,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="PreviewKeyDown">
+                            <cmd:EventToCommand Command="{Binding LTKeyCommand}"  PassEventArgsToCommand="True"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <TextBox x:Name="LeftBottomPosTb" HorizontalAlignment="Left" MinWidth="50" Margin="10,20,0,0" IsReadOnly="True" Text="{Binding config.WolfLBKey,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="PreviewKeyDown">
+                            <cmd:EventToCommand Command="{Binding LBKeyCommand}"  PassEventArgsToCommand="True" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <TextBox x:Name="RightTopPosTb" HorizontalAlignment="Left" MinWidth="50" Margin="10,20,0,0" IsReadOnly="True" Text="{Binding config.WolfRTKey,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="PreviewKeyDown">
+                            <cmd:EventToCommand Command="{Binding RTKeyCommand}"  PassEventArgsToCommand="True" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+                <TextBox x:Name="RightBottomPosTb" HorizontalAlignment="Left" MinWidth="50" Margin="10,16,0,0" IsReadOnly="True" Text="{Binding config.WolfRBKey,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="PreviewKeyDown">
+                            <cmd:EventToCommand Command="{Binding RBKeyCommand}"  PassEventArgsToCommand="True" />
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </TextBox>
+            </StackPanel>
+        </Viewbox>
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+            <Viewbox Grid.Row="0" >
+                <TextBlock  Text="{Binding ElementName=slider,StringFormat=0.0, Path=Value}"  Margin="5,10,20,0" Width="150" Height="45"  />
+            </Viewbox>
+            <Viewbox Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+                <StackPanel  Orientation="Horizontal">
+                    <Button Command="{Binding SaveCommand}" Content="Save" VerticalAlignment="Bottom" HorizontalAlignment="Right"  MinHeight="50" MinWidth="80"  Margin="5"  />
+                    <Button Command="{Binding ExitCommand}" Content="Cancel" VerticalAlignment="Bottom" HorizontalAlignment="Right"  MinHeight="50" MinWidth="80" Margin="5" />
+                </StackPanel>
+            </Viewbox>
+        </Grid>
+
+    </Grid>
+
+</Window>

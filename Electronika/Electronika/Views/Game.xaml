@@ -1,0 +1,110 @@
+﻿<Window x:Class="Electronika.Views.Game"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Electronika.Views"
+        xmlns:vm="clr-namespace:Electronika.ViewModels"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+        Title="MainWindow"  Height="412" Width="674" MinHeight="412" MinWidth="674"  
+        WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Closing">
+            <i:InvokeCommandAction Command="{Binding WindowsClosing}" CommandParameter="{Binding}" />
+        </i:EventTrigger>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}" CommandParameter="{Binding}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Window.Resources>
+        <Style TargetType="{x:Type Image}">
+            <Setter Property="Stretch" Value="Fill"/>
+        </Style>
+    </Window.Resources>
+    <Window.InputBindings>
+        <KeyBinding Key="{Binding LTKey}" Command ="{Binding LTCommand}" />
+        <KeyBinding Key="{Binding LBKey}" Command ="{Binding LBCommand}" />
+        <KeyBinding Key="{Binding RTKey}" Command ="{Binding RTCommand}" />
+        <KeyBinding Key="{Binding RBKey}" Command ="{Binding RBCommand}" />
+        
+    </Window.InputBindings>
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions >
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <Viewbox Grid.Row="0" Grid.ColumnSpan="3" MaxHeight="100" >
+            <TextBlock Text="Electronika" HorizontalAlignment="Stretch" VerticalAlignment="Bottom"/>
+        </Viewbox>
+        <Grid Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Viewbox Stretch="Fill"  Grid.Row="2" Margin="5" >
+                <Button Content="LT"  Command="{Binding LTCommand}"  VerticalAlignment="Bottom" MinWidth="30" />
+            </Viewbox>   
+            <Viewbox Stretch="Fill"  Grid.Row="4" Margin="5" >
+                <Button Content="LB"  Command="{Binding LBCommand}"  VerticalAlignment="Bottom"  MinWidth="30"/>
+            </Viewbox>
+        </Grid>
+        <Grid Grid.Row="0" Grid.Column="2" Grid.RowSpan="3" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Viewbox Stretch="Fill"  Grid.Row="2" Margin="5" >
+                <Button Content="RT"  Command="{Binding RTCommand}"  VerticalAlignment="Bottom"  MinWidth="30"/>
+            </Viewbox>
+            <Viewbox Stretch="Fill"  Grid.Row="4" Margin="5" >
+                <Button Content="RB"  Command="{Binding RBCommand}"  VerticalAlignment="Bottom"  MinWidth="30"/>
+            </Viewbox>
+        
+        </Grid>
+
+
+        <Viewbox Grid.Row="0"  Grid.Column="2"  Margin="5" VerticalAlignment="Center" HorizontalAlignment="Right" >
+            <Button Content="Х" Command="{Binding CloseCommand}" MinHeight="25" MinWidth="57" />
+        </Viewbox>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
+            <Grid  x:Name="MainGrid" Grid.RowSpan="2" Grid.ColumnSpan="3">
+            <Image Source="{Binding Background}" />
+            <Image Source="{Binding CurrentWolf.WolfSource}" Visibility="{Binding CurrentWolf.WolfVisibility}"  VerticalAlignment="Bottom"/>
+           
+            <Image Source="{Binding Hp.HP1Source }" Visibility="{Binding Hp.Hp1Visibility}" VerticalAlignment="Bottom"/>
+            <Image Source="{Binding Hp.HP2Source }" Visibility="{Binding Hp.Hp2Visibility}" VerticalAlignment="Bottom"/>
+            <Image Source="{Binding Hp.HP3Source }" Visibility="{Binding Hp.Hp3Visibility}" VerticalAlignment="Bottom"/>
+
+            </Grid>
+            <Viewbox HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1" >
+                <Label Content="{Binding CurrentScore}"  HorizontalAlignment="Center"  VerticalAlignment="Top"/>
+            </Viewbox>
+        </Grid>
+    </Grid>
+</Window>

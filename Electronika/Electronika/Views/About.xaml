@@ -1,0 +1,56 @@
+﻿<Window x:Class="Electronika.Views.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Electronika.Views"
+        xmlns:vm="clr-namespace:Electronika.ViewModels"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding LoadedCommand}" CommandParameter="{Binding}" />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Image Grid.Column="0" Source="{Binding LeftWolf}" Stretch="Fill"/>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="1.5*"/>
+            </Grid.RowDefinitions>
+            <Viewbox  HorizontalAlignment="Left">
+                <StackPanel >
+                    <TextBlock Text=" Product Name : Electronika"/>
+                    <TextBlock Text=" Version : 0.1" />
+                    <TextBlock Text=" Created by : Maxym Aharkov" />
+                    <TextBlock Text=" Company Name : Some company" />
+                </StackPanel>
+            </Viewbox>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Viewbox Grid.ColumnSpan="2"  Stretch="Fill">
+                <TextBox    IsReadOnly="True" Text="{Binding Description}"/>
+                </Viewbox>
+                <Viewbox Grid.Row="1" Grid.Column="1"  VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+                    <Button  Content="OK" Width="41" Command="{Binding OKCommand}"/>
+
+                </Viewbox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

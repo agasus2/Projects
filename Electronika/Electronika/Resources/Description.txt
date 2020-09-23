@@ -1,0 +1,7 @@
+﻿Description : 
+The game was created by Maxim Aharkov, student of DbBest.
+How to play: 
+To play the game you must press "Play" button in main menu.
+Then you must move the wolf to correct  egg spawn. 
+You can use keybord(Deffault:, Left top : Q,Left bottom : A, Right top : E, Right bottom : D), 
+or buttons in game window. If you broke 3 egg, you lose.

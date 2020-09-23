@@ -1,0 +1,21 @@
+﻿To serialize you'r catalog, you must use this pattern:
+"Path to folder" FileName.customExpansion format
+where:
+1. Path to folder must be in double quotes and should not end with a symbol "\".
+2. File name must not contain spaces.
+3. File name can't contain expansion. Expansion can add automatically (depending on format), 
+if you do not specify it.
+!!! If the file already exists, it will be overwritten!!!
+4. Available formats:
+-bin - binary format;
+-xml - xml format;
+Example:
+"D:" MyFile.exp -xml
+To deserialize it, you must use this pattern:
+FileName.customExpansion format
+where:
+1. File name must contain expansion.
+2. Available formats (see above).
+Example:
+MyFile.exp -xml
+For more detailed serialization, please run the command line as administrator.
